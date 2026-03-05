@@ -1,0 +1,20 @@
+{
+    "description": "Test task for Balíkobot",
+    "config": {
+        "platform": {
+            "php": "8.4.11"
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=8.4.11",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "flightphp/core": "^3.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Balikobot\\": "Balikobot"
+        }
+    }
+}
